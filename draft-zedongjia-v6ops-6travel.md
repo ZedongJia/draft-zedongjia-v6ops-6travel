@@ -488,7 +488,7 @@ presents the results for each EH across protocols.
 | Shim6 | 70.18 | 70.00 | 69.54 |
 | AH | 72.27 | 70.56 | 69.76 |
 | ESP | 70.38 | 70.85 | 70.29 |
-{: title="Destination AS reachability rate for each EH across protocols compared to baseline" #tab-path-traversal-overview"}
+{: title="Destination AS reachability rate for each EH across protocols compared to baseline" #tab-path-traversal-overview}
 
 Our results reveal several critical insights:
 
@@ -547,7 +547,7 @@ counted multiple times if it belongs to multiple industry categories.
 | Health Care | 0.96 | 0.96 | 0.42 | 0.84 | 0.77 | 0.91 | 0.76 | 0.76 | 0.76 | 0.76 | 0.69 |
 | Government | 0.98 | 0.97 | 0.96 | 0.98 | 0.96 | 0.98 | 0.96 | 0.96 | 0.96 | 0.96 | 0.96 |
 | Travel | 0.96 | 0.94 | 0.62 | 0.83 | 0.78 | 0.86 | 0.80 | 0.81 | 0.81 | 0.77 | 0.72 |
-{: title="Relative destination AS reachability under ICMPv6 by industry category" #tab-ic-icmp"}
+{: title="Relative destination AS reachability under ICMPv6 by industry category" #tab-ic-icmp}
 
 | IC | Dst | AFrag | Frag | RH0 | RH2 | RH127 | MH | HIP | Shim6 | AH | ESP |
 |----|-----|-------|------|-----|-----|-------|-----|-----|-------|-----|-----|
@@ -568,7 +568,7 @@ counted multiple times if it belongs to multiple industry categories.
 | Health Care | 0.99 | 1.00 | 1.00 | 0.99 | 0.99 | 0.99 | 0.99 | 0.99 | 0.99 | 0.99 | 0.99 |
 | Government | 1.00 | 0.44 | 0.43 | 0.98 | 0.44 | 1.00 | 0.46 | 0.46 | 0.46 | 0.46 | 0.46 |
 | Travel | 1.03 | 1.03 | 0.79 | 0.98 | 0.98 | 1.01 | 1.04 | 1.07 | 1.07 | 0.97 | 0.98 |
-{: title="Relative destination AS reachability under TCP/22 by industry category" #tab-ic-tcp"}
+{: title="Relative destination AS reachability under TCP/22 by industry category" #tab-ic-tcp}
 
 | IC | Dst | AFrag | Frag | RH0 | RH2 | RH127 | MH | HIP | Shim6 | AH | ESP |
 |----|-----|-------|------|-----|-----|-------|-----|-----|-------|-----|-----|
@@ -589,7 +589,7 @@ counted multiple times if it belongs to multiple industry categories.
 | Health Care | 0.99 | 1.00 | 0.99 | 0.99 | 0.99 | 0.99 | 0.99 | 0.99 | 0.99 | 0.99 | 0.99 |
 | Government | 1.01 | 1.01 | 0.53 | 0.96 | 0.95 | 1.00 | 0.98 | 1.01 | 1.02 | 0.90 | 0.93 |
 | Travel | 1.03 | 1.02 | 0.67 | 0.97 | 0.94 | 1.00 | 0.97 | 1.33 | 1.33 | 0.87 | 1.18 |
-{: title="Relative destination AS reachability under UDP/161 by industry category" #tab-ic-udp"}
+{: title="Relative destination AS reachability under UDP/161 by industry category" #tab-ic-udp}
 
 Our analysis reveals two distinct forms of policy ossification across
 industry categories:
@@ -720,7 +720,7 @@ industry categories to evaluate the extent of firewall evasion.
 | ICMPv6 | 93,630 (1.6%) | 1,154 (4.9%) |
 | TCP/22 | 218,954 (3.7%) | 4,961 (21.1%) |
 | UDP/161 | 195,175 (3.4%) | 4,468 (19.0%) |
-{: title="Overall impact of EH-based firewall evasion" #tab-evasion-summary"}
+{: title="Overall impact of EH-based firewall evasion" #tab-evasion-summary}
 
 While 93,630 /48 prefixes (1,154 ASes) are affected under ICMPv6, the
 impact nearly doubles under TCP/UDP, reaching 218,954 prefixes (4,961 ASes)
@@ -745,7 +745,7 @@ firewall evasion across different EH types and protocols.
 | Shim6 | 8.9 | 94.5 | 84.0 |
 | AH | 71.7 | 117.7 | 110.6 |
 | ESP | 79.3 | 158.2 | 150.2 |
-{: title="Number of /48 prefixes (in thousands) affected by EH-based firewall evasion across EH types" #tab-bypass-eh"}
+{: title="Number of /48 prefixes (in thousands) affected by EH-based firewall evasion across EH types" #tab-bypass-eh}
 
 Evasion capabilities vary significantly across EH types, revealing diverse
 underlying causes:
@@ -789,7 +789,7 @@ if it belongs to multiple categories.
 | Travel | 6 (0.9%) | 4 (2.7%) |
 | Utilities | 7 (0.4%) | 5 (3.0%) |
 | **Total** | **93,630 (1.6%)** | **1,154 (4.9%)** |
-{: title="Firewall evasion under ICMPv6 by industry category" #tab-evasion-icmp"}
+{: title="Firewall evasion under ICMPv6 by industry category" #tab-evasion-icmp}
 
 | Industry Category | # Affected /48s | # Affected ASes |
 |-------------------|-----------------|-----------------|
@@ -811,7 +811,7 @@ if it belongs to multiple categories.
 | Travel | 61 (9.2%) | 18 (12.4%) |
 | Utilities | 94 (5.7%) | 30 (18.2%) |
 | **Total** | **218,954 (3.7%)** | **4,961 (21.1%)** |
-{: title="Firewall evasion under TCP/22 by industry category" #tab-evasion-tcp"}
+{: title="Firewall evasion under TCP/22 by industry category" #tab-evasion-tcp}
 
 | Industry Category | # Affected /48s | # Affected ASes |
 |-------------------|-----------------|-----------------|
@@ -833,7 +833,7 @@ if it belongs to multiple categories.
 | Travel | 25 (4.2%) | 11 (7.6%) |
 | Utilities | 75 (4.6%) | 19 (11.4%) |
 | **Total** | **195,175 (3.4%)** | **4,468 (19.0%)** |
-{: title="Firewall evasion under UDP/161 by industry category" #tab-evasion-udp"}
+{: title="Firewall evasion under UDP/161 by industry category" #tab-evasion-udp}
 
 Industry-category-wise, the Tech category dominates the evasion landscape,
 followed by Media and Retail, which show significant susceptibility,
@@ -878,7 +878,7 @@ destination ASes, and the percentage of on-path versus host-side firewalls.
 | UDP/161 | Shim6 | 29.6 | 70.4 | 97.3 | 2.7 |
 | UDP/161 | AH | 91.7 | 8.3 | 94.0 | 6.0 |
 | UDP/161 | ESP | 59.5 | 40.5 | 97.2 | 2.8 |
-{: title="Spatial distribution of evaded firewalls across EH types and protocols" #tab-bypass-loc"}
+{: title="Spatial distribution of evaded firewalls across EH types and protocols" #tab-bypass-loc}
 
 Several key patterns emerge from this analysis:
 
