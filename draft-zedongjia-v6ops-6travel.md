@@ -8,20 +8,20 @@ number:
 date: 2026-06-01
 consensus: true
 v: 3
-area: Internet
-workgroup: v6ops Working Group
+area: "Operations and Management"
+workgroup: "IPv6 Operations"
 keyword:
  - IPv6
  - IPv6 Extension Header
  - Reachability
  - Evasion
 venue:
-  group: v6ops
-  type: Working Group
-  mail: v6ops@ietf.org
-  arch: https://mailarchive.ietf.org/arch/browse/v6ops/
-  github: ZedongJia/draft-zedongjia-v6ops-6travel
-  latest: https://zedongjia.github.io/draft-zedongjia-v6ops-6travel/
+  group: "IPv6 Operations"
+  type: "Working Group"
+  mail: "v6ops@ietf.org"
+  arch: "https://mailarchive.ietf.org/arch/browse/v6ops/"
+  github: "ZedongJia/draft-zedongjia-v6ops-6travel"
+  latest: "https://ZedongJia.github.io/draft-zedongjia-v6ops-6travel/draft-zedongjia-v6ops-6travel.html"
 
 author:
  -
