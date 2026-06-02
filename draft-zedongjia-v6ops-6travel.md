@@ -25,13 +25,13 @@ venue:
 
 author:
  -
-    fullname: Zedong Jia
-    organization: Tsinghua University
-    email: jzd25@mails.tsinghua.edu.cn
- -
     fullname: Lin He
     organization: Tsinghua University
     email: helin1170@gmail.com
+ -
+    fullname: Zedong Jia
+    organization: Tsinghua University
+    email: jzd25@mails.tsinghua.edu.cn
  -
     fullname: Le Gai
     organization: Tsinghua University
