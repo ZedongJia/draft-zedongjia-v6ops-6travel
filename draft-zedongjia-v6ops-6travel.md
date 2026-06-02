@@ -37,22 +37,6 @@ author:
     organization: Tsinghua University
     email: gl25@mails.tsinghua.edu.cn
  -
-    fullname: Daguo Cheng
-    organization: Tsinghua University
-    email: cdg22@mails.tsinghua.edu.cn
- -
-    fullname: Chentian Wei
-    organization: Tsinghua University
-    email: wct24@mails.tsinghua.edu.cn
- -
-    fullname: Kun Guo
-    organization: Zhongguancun Laboratory
-    email: guokun@zgclab.edu.cn
- -
-    fullname: Chenyi Liu
-    organization: Zhongguancun Laboratory
-    email: liucy@zgclab.edu.cn
- -
     fullname: Shenglin Zhang
     organization: Nankai University
     email: zhangsl@nankai.edu.cn
@@ -1050,6 +1034,7 @@ packets with IPv6 Extension Headers.
 # Acknowledgments
 {:numbered="false"}
 
-The authors would like to thank the network administrators who cooperated
-with our disclosure efforts and the reviewers who provided valuable
-feedback on earlier versions of this document.
+We would like to thank Daguo Cheng, Chentian Wei, Kun Guo, and Chenyi Liu
+for their contributions to this work. We also thank the network
+administrators who cooperated with our disclosure efforts and the reviewers
+who provided valuable feedback on earlier versions of this document.
