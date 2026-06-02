@@ -1,3 +1,5 @@
+export UPLOAD_EMAIL ?= jzd25@mails.tsinghua.edu.cn
+
 LIBDIR := lib
 -include $(LIBDIR)/main.mk
 
