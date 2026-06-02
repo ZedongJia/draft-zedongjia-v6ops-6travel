@@ -8,10 +8,6 @@
 <meta content="Zedong Jia" name="author">
 <meta content="Lin He" name="author">
 <meta content="Le Gai" name="author">
-<meta content="Daguo Cheng" name="author">
-<meta content="Chentian Wei" name="author">
-<meta content="Kun Guo" name="author">
-<meta content="Chenyi Liu" name="author">
 <meta content="Shenglin Zhang" name="author">
 <meta content="Ying Liu" name="author">
 <meta content="
@@ -39,7 +35,7 @@ and host-side firewalls.
 <meta content="IPv6 Extension Header" name="keyword">
 <meta content="Reachability" name="keyword">
 <meta content="Evasion" name="keyword">
-<meta content="draft-zedongjia-v6ops-ipv6eh" name="ietf.draft">
+<meta content="draft-zedongjia-v6ops-6travel-latest" name="ietf.draft">
 <!-- Generator version information:
   xml2rfc 3.33.0
     Python 3.12.13
@@ -1083,9 +1079,9 @@ svg {
 <div id="internal-metadata" class="document-information">
 <dl id="identifiers">
 <dt class="label-workgroup">Workgroup:</dt>
-<dd class="workgroup">v6ops Working Group</dd>
+<dd class="workgroup">IPv6 Operations</dd>
 <dt class="label-internet-draft">Internet-Draft:</dt>
-<dd class="internet-draft">draft-zedongjia-v6ops-ipv6eh</dd>
+<dd class="internet-draft">draft-zedongjia-v6ops-6travel-latest</dd>
 <dt class="label-published">Published:</dt>
 <dd class="published">
 <time datetime="2026-06-01" class="published">1 June 2026</time>
@@ -1107,22 +1103,6 @@ svg {
 <div class="author">
       <div class="author-name">L. Gai</div>
 <div class="org">Tsinghua University</div>
-</div>
-<div class="author">
-      <div class="author-name">D. Cheng</div>
-<div class="org">Tsinghua University</div>
-</div>
-<div class="author">
-      <div class="author-name">C. Wei</div>
-<div class="org">Tsinghua University</div>
-</div>
-<div class="author">
-      <div class="author-name">K. Guo</div>
-<div class="org">Zhongguancun Laboratory</div>
-</div>
-<div class="author">
-      <div class="author-name">C. Liu</div>
-<div class="org">Zhongguancun Laboratory</div>
 </div>
 <div class="author">
       <div class="author-name">S. Zhang</div>
@@ -1163,11 +1143,11 @@ and host-side firewalls.<a href="#section-abstract-2" class="pilcrow">¶</a></p>
       </h2>
 <p id="section-note.1-1">This note is to be removed before publishing as an RFC.<a href="#section-note.1-1" class="pilcrow">¶</a></p>
 <p id="section-note.1-2">
-        The latest revision of this draft can be found at <span><a href="https://zedongjia.github.io/draft-zedongjia-v6ops-6travel/">https://zedongjia.github.io/draft-zedongjia-v6ops-6travel/</a></span>.
-        Status information for this document may be found at <span><a href="https://datatracker.ietf.org/doc/draft-zedongjia-v6ops/">https://datatracker.ietf.org/doc/draft-zedongjia-v6ops/</a></span>.<a href="#section-note.1-2" class="pilcrow">¶</a></p>
+        The latest revision of this draft can be found at <span><a href="https://ZedongJia.github.io/draft-zedongjia-v6ops-6travel/draft-zedongjia-v6ops-6travel.html">https://ZedongJia.github.io/draft-zedongjia-v6ops-6travel/draft-zedongjia-v6ops-6travel.html</a></span>.
+        Status information for this document may be found at <span><a href="https://datatracker.ietf.org/doc/draft-zedongjia-v6ops-6travel/">https://datatracker.ietf.org/doc/draft-zedongjia-v6ops-6travel/</a></span>.<a href="#section-note.1-2" class="pilcrow">¶</a></p>
 <p id="section-note.1-3">
         Discussion of this document takes place on the
-        v6ops Working Group mailing list (<span><a href="mailto:v6ops@ietf.org">mailto:v6ops@ietf.org</a></span>),
+        IPv6 Operations Working Group mailing list (<span><a href="mailto:v6ops@ietf.org">mailto:v6ops@ietf.org</a></span>),
         which is archived at <span><a href="https://mailarchive.ietf.org/arch/browse/v6ops/">https://mailarchive.ietf.org/arch/browse/v6ops/</a></span>.
         Subscribe at <span><a href="https://www.ietf.org/mailman/listinfo/v6ops/">https://www.ietf.org/mailman/listinfo/v6ops/</a></span>.<a href="#section-note.1-3" class="pilcrow">¶</a></p>
 <p id="section-note.1-4">Source for this draft and an issue tracker can be found at
@@ -4034,9 +4014,10 @@ packets with IPv6 Extension Headers.<a href="#appendix-C-2" class="pilcrow">¶</
       <h2 id="name-acknowledgments">
 <a href="#name-acknowledgments" class="section-name selfRef">Acknowledgments</a>
       </h2>
-<p id="appendix-D-1">The authors would like to thank the network administrators who cooperated
-with our disclosure efforts and the reviewers who provided valuable
-feedback on earlier versions of this document.<a href="#appendix-D-1" class="pilcrow">¶</a></p>
+<p id="appendix-D-1">We would like to thank Daguo Cheng, Chentian Wei, Zhaoan Wang, Kun Guo, and Chenyi Liu
+for their contributions to this work. We also thank the network
+administrators who cooperated with our disclosure efforts and the reviewers
+who provided valuable feedback on earlier versions of this document.<a href="#appendix-D-1" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="authors-addresses">
@@ -4066,38 +4047,6 @@ feedback on earlier versions of this document.<a href="#appendix-D-1" class="pil
 <div class="email">
 <span>Email:</span>
 <a href="mailto:gl25@mails.tsinghua.edu.cn" class="email">gl25@mails.tsinghua.edu.cn</a>
-</div>
-</address>
-<address class="vcard">
-        <div dir="auto" class="left"><span class="fn nameRole">Daguo Cheng</span></div>
-<div dir="auto" class="left"><span class="org">Tsinghua University</span></div>
-<div class="email">
-<span>Email:</span>
-<a href="mailto:cdg22@mails.tsinghua.edu.cn" class="email">cdg22@mails.tsinghua.edu.cn</a>
-</div>
-</address>
-<address class="vcard">
-        <div dir="auto" class="left"><span class="fn nameRole">Chentian Wei</span></div>
-<div dir="auto" class="left"><span class="org">Tsinghua University</span></div>
-<div class="email">
-<span>Email:</span>
-<a href="mailto:wct24@mails.tsinghua.edu.cn" class="email">wct24@mails.tsinghua.edu.cn</a>
-</div>
-</address>
-<address class="vcard">
-        <div dir="auto" class="left"><span class="fn nameRole">Kun Guo</span></div>
-<div dir="auto" class="left"><span class="org">Zhongguancun Laboratory</span></div>
-<div class="email">
-<span>Email:</span>
-<a href="mailto:guokun@zgclab.edu.cn" class="email">guokun@zgclab.edu.cn</a>
-</div>
-</address>
-<address class="vcard">
-        <div dir="auto" class="left"><span class="fn nameRole">Chenyi Liu</span></div>
-<div dir="auto" class="left"><span class="org">Zhongguancun Laboratory</span></div>
-<div class="email">
-<span>Email:</span>
-<a href="mailto:liucy@zgclab.edu.cn" class="email">liucy@zgclab.edu.cn</a>
 </div>
 </address>
 <address class="vcard">
