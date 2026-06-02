@@ -2,8 +2,8 @@
 
 
 
-IPv6 Operations                                                   Z. Jia
-Internet-Draft                                                     L. He
+IPv6 Operations                                                    L. He
+Internet-Draft                                                    Z. Jia
 Intended status: Informational                                    L. Gai
 Expires: 3 December 2026                             Tsinghua University
                                                                 S. Zhang
@@ -1451,14 +1451,14 @@ Acknowledgments
 
 Authors' Addresses
 
-   Zedong Jia
-   Tsinghua University
-   Email: jzd25@mails.tsinghua.edu.cn
-
-
    Lin He
    Tsinghua University
    Email: helin1170@gmail.com
+
+
+   Zedong Jia
+   Tsinghua University
+   Email: jzd25@mails.tsinghua.edu.cn
 
 
    Le Gai
