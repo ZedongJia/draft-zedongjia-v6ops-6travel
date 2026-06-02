@@ -2,7 +2,7 @@
 title: "Observations on the Reachability and Evasion of Packets with IPv6 Extension Headers on the Internet"
 category: info
 
-docname: draft-zedongjia-v6ops-6travel-latest
+docname: draft-zedongjia-v6ops-ipv6eh-measurement-latest
 submissiontype: IETF  # also: "independent", "editorial", "IAB", or "IRTF"
 number:
 date: 2026-06-01
@@ -20,8 +20,8 @@ venue:
   type: "Working Group"
   mail: "v6ops@ietf.org"
   arch: "https://mailarchive.ietf.org/arch/browse/v6ops/"
-  github: "ZedongJia/draft-zedongjia-v6ops-6travel"
-  latest: "https://ZedongJia.github.io/draft-zedongjia-v6ops-6travel/draft-zedongjia-v6ops-6travel.html"
+  github: "ZedongJia/draft-zedongjia-v6ops-ipv6eh-measurement"
+  latest: "https://ZedongJia.github.io/draft-zedongjia-v6ops-ipv6eh-measurement/draft-zedongjia-v6ops-ipv6eh-measurement.html"
 
 author:
  -
